@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/brendancer/My-Portfolio.git/static/css/main.6dea0f05.chunk.css",
+    "main.js": "/brendancer/My-Portfolio.git/static/js/main.56c5da9a.chunk.js",
+    "main.js.map": "/brendancer/My-Portfolio.git/static/js/main.56c5da9a.chunk.js.map",
+    "runtime-main.js": "/brendancer/My-Portfolio.git/static/js/runtime-main.a79b2d78.js",
+    "runtime-main.js.map": "/brendancer/My-Portfolio.git/static/js/runtime-main.a79b2d78.js.map",
+    "static/js/2.b23cac4b.chunk.js": "/brendancer/My-Portfolio.git/static/js/2.b23cac4b.chunk.js",
+    "static/js/2.b23cac4b.chunk.js.map": "/brendancer/My-Portfolio.git/static/js/2.b23cac4b.chunk.js.map",
+    "index.html": "/brendancer/My-Portfolio.git/index.html",
+    "static/css/main.6dea0f05.chunk.css.map": "/brendancer/My-Portfolio.git/static/css/main.6dea0f05.chunk.css.map",
+    "static/js/2.b23cac4b.chunk.js.LICENSE.txt": "/brendancer/My-Portfolio.git/static/js/2.b23cac4b.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.a79b2d78.js",
+    "static/js/2.b23cac4b.chunk.js",
+    "static/css/main.6dea0f05.chunk.css",
+    "static/js/main.56c5da9a.chunk.js"
+  ]
+}
