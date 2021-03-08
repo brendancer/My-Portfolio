@@ -12,26 +12,10 @@ const App = () => {
 
 
   return (
-    <HashRouter basename="/">
-      <Switch>
-        <Route exact path="/" component={Home}>
-          <Home />
-        </Route>
-        <Route exact path="/contact" component={Contact}>
-          <Contact />
-        </Route>
-        <Route exact path="/projects" component={Projects}>
-          <Projects />
-        </Route>
-        <Route exact path="/resume" component={Resume}>
-          <Resume />
-        </Route>
-      </Switch>
-    </HashRouter>
-  );
+    <div></div>
+
+  )
 }
-
-
 
 
 export default App;

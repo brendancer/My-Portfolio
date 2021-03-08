@@ -8,7 +8,7 @@ import Projects from "./pages/Projects"
 import Resume from "./pages/Resume"
 
 ReactDOM.render(
-  <HashRouter basename="/">
+  <HashRouter basename={process.env.PUBLIC_URL}>
     <Switch>
       <Route exact path="/" component={Home}>
         <Home />

@@ -7,12 +7,13 @@ const Home = () => {
   return (
     <>
       <div className="container">
-        <div className="row col-md-12 offset-6 mr-0">
+        <div>
           <NavBar />
 
         </div>
       </div>
       <Header />
+      <h1>home</h1>
     </>
   )
 }
