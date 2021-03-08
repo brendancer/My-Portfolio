@@ -4,6 +4,9 @@ import {
   CardTitle, CardSubtitle, Button, Container, Row, Col
 } from 'reactstrap';
 import ProjectCard from './ProjectCard.js';
+import Banner from "../assets/banner.png"
+import ProfilePic from "../assets/profile-pic-3.jpeg"
+
 
 function Projectdata() {
   const myProjects = {
@@ -11,21 +14,21 @@ function Projectdata() {
       {
         id: 1,
         title: "Myproject1",
-        image: "../assets/banner.png",
+        image: { Banner },
         description: " great project"
 
       },
       {
         id: 2,
         title: "Myproject2",
-        image: "../assets/profile-pic-3.jpeg",
+        image: { ProfilePic },
         description: "really great project"
 
       },
       {
         id: 3,
         title: "Myproject3",
-        image: "../assets/banner.png",
+        image: { Banner },
         description: "really great project"
 
       },
@@ -33,14 +36,16 @@ function Projectdata() {
   }
 
   console.log(Projectdata)
-  let projectcard = myProjects.projects.map(person => {
 
+  let projectcard = myProjects.projects.map(project => {
     return (
       <Col sm="4">
-        <ProjectCard projects={myProjects.projects} />
+        <ProjectCard project_id={project.id} title={project.title} description={project.description} image={project.image} />
       </Col>
     )
   })
+
+
 
   return (
     <>
