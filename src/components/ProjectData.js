@@ -14,21 +14,21 @@ function Projectdata() {
       {
         id: 1,
         title: "Myproject1",
-        image: { Banner },
+        image: Banner,
         description: " great project"
 
       },
       {
         id: 2,
         title: "Myproject2",
-        image: { ProfilePic },
+        image: ProfilePic,
         description: "really great project"
 
       },
       {
         id: 3,
         title: "Myproject3",
-        image: { Banner },
+        image: Banner,
         description: "really great project"
 
       },
