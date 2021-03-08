@@ -1,5 +1,5 @@
 import React from "react";
-import Header from "../components/Header";
+import Banner from "../components/Banner";
 import NavBar from "../components/NavBar"
 
 const Contact = () => {
@@ -7,7 +7,7 @@ const Contact = () => {
   return (
     <>
       <NavBar />
-      <Header />
+      <Banner />
       <h1>Contacts</h1>
     </>
   )

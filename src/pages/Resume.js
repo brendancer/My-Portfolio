@@ -1,5 +1,5 @@
 import React from "react";
-import Header from "../components/Header";
+import Banner from "../components/Banner";
 import NavBar from "../components/NavBar"
 
 const Resume = () => {
@@ -7,7 +7,7 @@ const Resume = () => {
   return (
     <>
       <NavBar />
-      <Header />
+      <Banner />
       <h1>Resume</h1>
     </>
   )

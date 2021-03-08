@@ -1,16 +1,25 @@
-import React from "react"
+import React from "react";
+import Banner from "../components/Banner";
+import NavBar from "../components/NavBar"
 
-const Header = () => {
 
-
+const header = () => {
 
   return (
     <>
-      <div>
-        <h1>Header</h1>
+      <div className="container-fluid">
+        <div className="row">
+          <div className="col-md-3">
+            <Banner />
+          </div>
+
+          <div className="col-md-9">
+            <NavBar />
+          </div>
+        </div>
       </div>
     </>
   )
 }
 
-export default Header
+export default header;

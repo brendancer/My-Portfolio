@@ -1,14 +1,18 @@
 import React from "react";
-import Header from "../components/Header";
-import NavBar from "../components/NavBar"
+import ProjectData from "../components/ProjectData"
 
 const Projects = () => {
 
   return (
     <>
-      <NavBar />
-      <Header />
-      <h1>Project Page</h1>
+      <div className="container-fluid">
+        <div className="row">
+
+          <ProjectData />
+          <h3 className="title">Project Page</h3>
+        </div>
+      </div>
+
     </>
   )
 }

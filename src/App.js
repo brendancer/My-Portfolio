@@ -8,14 +8,16 @@ import Projects from "./pages/Projects"
 import Resume from "./pages/Resume"
 
 
+
+
+
 const App = () => {
 
 
   return (
     <div></div>
-
   )
-}
 
+}
 
 export default App;

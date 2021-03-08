@@ -1,19 +1,19 @@
 import React from "react";
-import Header from "../components/Header";
+import Banner from "../components/Banner";
 import NavBar from "../components/NavBar"
+import About from "../components/About"
 
 const Home = () => {
 
   return (
     <>
-      <div className="container">
-        <div>
-          <NavBar />
+      <div className="container-fluid">
 
-        </div>
+        <About />
       </div>
-      <Header />
-      <h1>home</h1>
+
+
+
     </>
   )
 }
