@@ -29,6 +29,6 @@
 * [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## App Created by Brenda Goodwin
-* github: (https://github.com/brendancer) Email: [contact@ajlaursen.codes](mailto:brendanced@gmail.com)
+* github: (https://github.com/brendancer) Email: [brendanced@gmail.com](mailto:brendanced@gmail.com)
 
 
