@@ -1,5 +1,51 @@
+@import "colorsfonts.scss";
+
+
+html{
+  background-color: $brown;
+
+}
+.page {
+  background-color: $lightback;
+  width:100%;
+}
+.title {
+  text-align: center;
+  color: $verylight
+}
+.header {
+  background-color: $background;
+}
 .profPic {
   width: 25px;
   height: auto
- 
+}
+
+.content-box {
+  background-color: $verylight;
+  margin-top: 25px;
+  ;
+}
+p {
+  background-color: $verylight;
+}
+.card-body {
+  background-color: $verylight;
+}
+.card-container {
+  background-color: $background;
+}
+.navbar {
+  background-color: $verylight;
+  color: $background
+}
+.icons-list {
+  background-color: $verylight;
+}
+.footer {
+    position: relative;
+    margin-top: -150px; /* negative value of footer height */
+    height: 150px;
+    clear:both;
+    padding-top:20px;
 }

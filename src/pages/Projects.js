@@ -1,19 +1,18 @@
 import React from "react";
 import ProjectData from "../components/ProjectData"
+import { Container, Row } from 'reactstrap';
 
 const Projects = () => {
 
   return (
-    <>
-      <div className="container-fluid">
-        <div className="row">
-
-          <ProjectData />
-          <h3 className="title">Project Page</h3>
-        </div>
-      </div>
-
-    </>
+    <Container fluid className=" page">
+      <Row className="title">
+        <h3>Projects</h3>
+      </Row>
+      <Row>
+        <ProjectData />
+      </Row>
+    </Container>
   )
 }
 

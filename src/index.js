@@ -8,6 +8,7 @@ import Projects from "./pages/Projects"
 import Resume from "./pages/Resume"
 import Header from "./components/Header"
 import Footer from "./components/Footer"
+import "./Main.scss"
 
 ReactDOM.render(
   <HashRouter basename={process.env.PUBLIC_URL}>

@@ -1,14 +1,12 @@
 import React from "react";
-import Banner from "../components/Banner";
-import NavBar from "../components/NavBar"
 import About from "../components/About"
+import "../Main.scss"
 
 const Home = () => {
 
   return (
     <>
-      <div className="container-fluid">
-
+      <div className="page container-fluid">
         <About />
       </div>
 

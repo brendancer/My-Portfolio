@@ -1,9 +1,9 @@
 import React from 'react';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faLinkedin, faTwitter, faGithub, faFacebook } from "@fortawesome/free-brands-svg-icons";
+import { faLinkedin, faGithub, faFacebook } from "@fortawesome/free-brands-svg-icons";
 
 function Footer() {
-  return <div className='icons-list'>
+  return <div className=' icons-list text-center mt-5'>
     <a
       className="faLinkedin app-link social-media-list"
       href="https://www.linkedin.com/in/brendagoodwin23/"
